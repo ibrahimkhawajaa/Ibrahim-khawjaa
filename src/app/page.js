@@ -1,6 +1,7 @@
 "use client";
 import Section2 from "@/component/section2";
 import Section1 from "@/component/section1";
+import Section3 from "@/component/section3";
 import Navbar from "@/component/navbar";
 export default function Home() {
   return (
@@ -9,7 +10,12 @@ export default function Home() {
         <Navbar />
         <Section1 />
       </div>
+      
 <Section2/>
+
+
+  <Section3/>
+
     </>
   );
 }
