@@ -19,7 +19,7 @@ export default function section1() {
         <h1 className="pt-10 text-3xl underline sm:text-4xl">Seeing things from my own eye</h1>
       </div>
       <div className="w-full pt-20 sm:w-1/3">
-        <img src="./img/facepic.jpg" alt="" />
+        <img src="./img/Facepic.jpg" alt="" />
       </div>
     </div>
   );
