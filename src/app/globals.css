@@ -1,10 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
+*{
   overflow-x: hidden;
-  background-color: #1a202c;
+}
+body {
+ background-color: #1a202c;
   color: white;
 }
 
