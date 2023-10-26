@@ -84,7 +84,7 @@ export default function Home() {
             Templates{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
-            </span>
+            </span>dasdad
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Explore the Next.js 13 playground.
