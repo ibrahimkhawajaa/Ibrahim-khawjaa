@@ -1,9 +1,15 @@
-
-
+"use client";
+import Section2 from "@/component/section2";
+import Section1 from "@/component/section1";
+import Navbar from "@/component/navbar";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <h1>hello</h1>
-    </main>
-  )
+    <>
+      <div className="section-1">
+        <Navbar />
+        <Section1 />
+      </div>
+<Section2/>
+    </>
+  );
 }
