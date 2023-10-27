@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Github from './Img/github.png'
 export default function section4() {
   return (
     <div class="min-h-screen p-5   flex items-center justify-center section-4">
@@ -35,7 +37,7 @@ export default function section4() {
                 <div>
                   <p className="text-2xl">Social's.</p>
                   <a href="https://github.com/ibrahimkhawajaa" target="_blank">
-                    <img src="./img/github.png" alt="" />
+             <Image src={Github}/>
                   </a>
                 </div>
               </div>
@@ -44,13 +46,17 @@ export default function section4() {
                 <h1 className="text-black text-3xl text-Grotesk text-gray-600 ">
                   Contact me
                 </h1>
-                <form action="https://formspree.io/f/myyqnbza" method="POST">
+                <form   action="https://formspree.io/f/myyqnbza"
+            method="POST"
+            id="contact-form"
+            class="form-horizontal"
+            role="form">
                   <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
                     <div class="md:col-span-5">
                       <label for="full_name">Full Name</label>
                       <input
                         type="text"
-                        name="name"
+                        name="Name"
                         id="full_name"
                         class="outline-gray-400 h-10 border mt-1 rounded px-4 w-full bg-gray-50 text-black"
                         placeholder="Your Name*"
@@ -62,7 +68,7 @@ export default function section4() {
                       <label for="email">Email Address</label>
                       <input
                         type="text"
-                        name="email"
+                        name="Email"
                         id="email"
                         class="outline-gray-400 h-10 border mt-1 rounded px-4 w-full bg-gray-50 text-black"
                         placeholder="Email Address"
@@ -74,7 +80,7 @@ export default function section4() {
                       <label for="address">Address / Street</label>
                       <input
                         type="Message"
-                        name="address"
+                        name="message"
                         id="address"
                         class="text-Nenu h-56 w-4/5 border mt-1 rounded outline-gray-400 pb-[160px] px-4 w-full bg-gray-50 text-black"
                         placeholder="Message"
@@ -84,7 +90,7 @@ export default function section4() {
 
                     <div class="md:col-span-5 text-right">
                       <div class="inline-flex items-end">
-                        <button class="bg-[#F4CE14] hover:bg-white text-white font-bold py-2 px-4 rounded-full">
+                        <button  type="submit" value="Send" class="bg-[#F4CE14] hover:bg-white text-white font-bold py-2 px-4 rounded-full">
                           Submit
                         </button>
                       </div>
@@ -95,8 +101,9 @@ export default function section4() {
             </div>
           </div>
         </div>
-        <div className="text-normal underline text-Grotesk text-gray-300">
-          &copy; 2023 Your Company Name. All rights reserved.
+        <div className="text-normal underline text-Grotesk text-gray-600">
+          &copy; 2023
+           All rights reserved.
         </div>
       </div>
     </div>

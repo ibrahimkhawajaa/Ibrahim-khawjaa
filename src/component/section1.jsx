@@ -1,6 +1,9 @@
 "use client";
+import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import "../app/styles/globals.css";
+import Face from './Img/Facepic.jpg'
+
 export default function section1() {
   return (
     <div className="section-1 flex flex-row justify-around items-center flex-wrap w-auto h-auto m-10  pb-[100px] ">
@@ -31,8 +34,9 @@ export default function section1() {
           Seeing things from my own eye
         </h1>
       </div>
-      <div className="w-full pt-20 sm:w-96">
-        <img src="./img/Facepic.jpg" alt="" />
+      
+      <div className="face w-full pt-20 sm:w-96">
+<Image src={Face} placeholder="blur"/>
       </div>
     </div>
   );
