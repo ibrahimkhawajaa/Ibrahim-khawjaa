@@ -39,6 +39,7 @@ html {
   background-attachment: fixed;
   width: 100vw;
   height: 100vh;
+  background-position: 120px 120px 90px 120px;
 }
 .section-4 {
   background-image: url(../img/roll.webp);
