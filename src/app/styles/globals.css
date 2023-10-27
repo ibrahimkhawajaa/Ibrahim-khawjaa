@@ -7,6 +7,8 @@ html {
   overflow-x: hidden;
   background-color: #1a202c;
   color: white;
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
 }
 
 @font-face {
@@ -19,7 +21,7 @@ html {
 }
 @font-face {
   font-family: "Logo";
-  src: url(../fonts/FANTASY\ MAGIST.otf);
+  src: url(../fonts/Gastony\ Signature.otf);
 }
 .text-Grotesk {
   font-family: "Grotesk";
@@ -29,6 +31,7 @@ html {
 }
 .text-logo {
   font-family: "Logo";
+  font-weight: bold;
 }
 .section-2 {
   position: relative;
@@ -236,6 +239,7 @@ html {
     font-size: 14px;
     font-size: 0.875rem;
   }
+
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
@@ -277,4 +281,14 @@ html {
     right: 122%;
     text-align: right;
   }
+
+}
+/*form bg*/
+.form-bg {
+  background: rgba(255, 252, 252, 0.91);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(6.9px);
+-webkit-backdrop-filter: blur(6.9px);
+border: 1px solid rgba(255, 255, 255, 0.27);
 }

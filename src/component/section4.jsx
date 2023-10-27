@@ -5,7 +5,7 @@ export default function section4() {
     <div class="min-h-screen p-7   flex items-center justify-center section-4">
       <div class="container max-w-screen-lg mx-auto ">
         <div>
-          <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
+          <div class="form-bg rounded shadow-lg p-4 px-4 md:p-8 mb-6">
             <div class=" grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
               <div class="text-gray-600 grid items-center text-Grotesk p-2 gap-6 flex flex-col">
                 <div>
@@ -101,7 +101,7 @@ export default function section4() {
             </div>
           </div>
         </div>
-        <div className="text-normal underline text-Grotesk text-gray-600">
+        <div className="text-normal underline text-Grotesk text-gray-600" id="#end">
           &copy; 2023
            All rights reserved.
         </div>

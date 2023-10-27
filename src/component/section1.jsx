@@ -1,6 +1,7 @@
 "use client";
+import { Typewriter } from "react-simple-typewriter";
 import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
+
 import "../app/styles/globals.css";
 import Face from './Img/Facepic.jpg'
 
@@ -13,21 +14,16 @@ export default function section1() {
         <h1 className="text-5xl sm:text-7xl">
           I'm{" "}
           <span className="text-3xl bg-[#F4CE14] sm:text-5xl">
-            <TypeAnimation
-              sequence={[
-                2000,
-                "Ibrahim", // Types 'One'
-                2000, // Waits 1s
-                "Dev", // Deletes 'One' and types 'Two'
-                2000, // Waits 2s
-                "Ux/Ui",
-                2000,
-              ]}
-              wrapper="span"
-              cursor={true}
-              repeat={Infinity}
-              className="typer"
-            />{" "}
+          <Typewriter
+            words={['ibrahim', 'Dev', 'Ux/Ui']}
+            loop={2000}
+            cursor
+            cursorStyle='●'
+            typeSpeed={120}
+            deleteSpeed={90}
+            delaySpeed={1000}
+       
+          />
           </span>
         </h1>
         <h1 className="pt-10 text-3xl underline sm:text-4xl">
