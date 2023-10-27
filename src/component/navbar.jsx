@@ -5,7 +5,7 @@ export default function navbar() {
   return (
     <nav className=" relative   p-10  pt-10 h-[20vh] sm:pt-20 flex justify-between">
       <div>
-        <h1 className="text-logo text-3xl  sm:text-4xl relative right-9  ">
+        <h1 className="text-logo text-2xl relative   sm:text-4xl relative    ">
           {/* Style will be inherited from the parent element */}
           <Typewriter
             words={["ibrahim", "ibrahim"]}
@@ -18,8 +18,8 @@ export default function navbar() {
           />
         </h1>
       </div>
-      <div className="text-lg text-Grotesk  sm:text-3xl  ">
-        <a href="" className="relative right-10 ">
+      <div className="text-lg text-Grotesk relative  sm:text-3xl relative   ">
+        <a href="" className="relative right-10">
           Home
         </a>
         <a href=" ">Contact me*</a>

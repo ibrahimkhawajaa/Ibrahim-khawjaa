@@ -8,7 +8,7 @@ export default function section3() {
     // Initialize AOS library
     AOS.init({
       // settings here, e.g., duration, delay, etc.
-      duration: 800,
+      duration: 200,
     });
   }, []);
   return (
