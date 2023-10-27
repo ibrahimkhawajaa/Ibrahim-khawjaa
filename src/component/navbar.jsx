@@ -1,5 +1,6 @@
-import "../app/globals.css";
-
+// import "../app/globals.css";
+// import '../app/globals.css'
+import '../app/styles/globals.css'
 export default function navbar() {
   return (
     <nav className=" relative left-10  p-10  pt-10 h-[20vh] sm:pt-20">

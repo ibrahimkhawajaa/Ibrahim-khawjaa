@@ -1,6 +1,16 @@
+'use client'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-
+import { useEffect } from "react";
 export default function section3() {
+    useEffect(() => {
+        // Initialize AOS library
+        AOS.init({
+          // settings here, e.g., duration, delay, etc.
+          duration: 800,
+        });
+      }, []);
   return (
     <div>
       <section id="cd-timeline" class="cd-container">
@@ -11,7 +21,7 @@ export default function section3() {
             class="cd-timeline-content"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000"
+            data-aos-duration="3000"
         >
             <h2 class="text-white">Education</h2>
             <div class="timeline-content-info">
@@ -52,7 +62,7 @@ export default function section3() {
             class="cd-timeline-content"
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
-            data-aos-duration="2000"
+            data-aos-duration="3000"
         >
             <h2 class="text-white">Experience</h2>
             <p>
@@ -62,16 +72,18 @@ export default function section3() {
             <p>
                 3.<b> Remote Work</b> Experience
             </p>
-            <span class="cd-date">Jan 18</span>
+       
         </div>
     </div>
 
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-picture"></div>
 
-        <div class="cd-timeline-content">
+        <div class="cd-timeline-content " data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="3000">
             <div>
-                <h1 class="text-white">Work i can do</h1>
+                <h1 class="text-white text-2xl text-Grotesk">Work i can do</h1>
                 <h4 class="text-white">Languages</h4>
                 <p>Html/Css</p>
                 <p>React.Js</p>
@@ -84,7 +96,7 @@ export default function section3() {
             <h4 class="text-white">Extra</h4>
             <p>Git/Github</p>
             <p>Ux/Ui</p>
-            <span class="cd-date">Jan 24</span>
+            
         </div>
     </div>
 
@@ -99,10 +111,15 @@ export default function section3() {
         >
             <h2 class="text-white">Final Message</h2>
             <p class="text-white">Hope we see Each Other.</p>
-            <span class="cd-date">Feb 26</span>
+      
         </div>
     </div>
 </section>
+
+<script>
+  AOS.init();
+</script>
+
     </div>
   )
 }
