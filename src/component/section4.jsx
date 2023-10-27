@@ -2,7 +2,7 @@ import Image from "next/image";
 import Github from './Img/github.png'
 export default function section4() {
   return (
-    <div class="min-h-screen p-5   flex items-center justify-center section-4">
+    <div class="min-h-screen p-7   flex items-center justify-center section-4">
       <div class="container max-w-screen-lg mx-auto ">
         <div>
           <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
@@ -42,7 +42,7 @@ export default function section4() {
                 </div>
               </div>
 
-              <div class="lg:col-span-2">
+              <div class="lg:col-span-2 pt-10">
                 <h1 className="text-black text-3xl text-Grotesk text-gray-600 ">
                   Contact me
                 </h1>
