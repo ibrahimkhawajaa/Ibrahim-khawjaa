@@ -288,7 +288,6 @@ html {
   background: rgba(255, 252, 252, 0.91);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
-backdrop-filter: blur(6.9px);
 -webkit-backdrop-filter: blur(6.9px);
 border: 1px solid rgba(255, 255, 255, 0.27);
 }
