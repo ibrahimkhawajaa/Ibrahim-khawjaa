@@ -5,7 +5,7 @@
 body,
 html {
   overflow-x: hidden;
-  background-color: #F0F0F0;
+  background-color: white;
   
   scroll-behavior: smooth;
   scroll-snap-type: mandatory;
@@ -36,10 +36,6 @@ color: #673ab7;
   font-family: "Logo";
   font-weight: bold;
 }
-.clr-green{
-  color: green;
-}
-
 .section-4 {
   background-image: url(../img/cover.png);
   background-repeat: no-repeat;

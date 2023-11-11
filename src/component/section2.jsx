@@ -8,18 +8,14 @@ export default function section2() {
         <Image src={Img1} />
       </div>
       <div className="text-center  w-full sm:w-1/2  ">
-        <h1 className=" text-[#90EE20] text-8xl  text-Grotesk sm:7xl ">
-          Who am i?
-        </h1>
-        <p className="text-center text-Neue text-3xl  sm:text-5xl ">
+        <h1 className=" text-[#90EE20] text-6xl  text-Grotesk sm:7xl ">Who am i?</h1>
+        <p className="text-center text-Neue text-2xl  sm:text-5xl ">
           {" "}
-          I'm <b className="underline">Ibrahim</b>, a <b>React Developer</b>{" "}
-          with over <b className="underline"> 2+ years</b> of professional
-          experience in the world of web development. My journey in this{" "}
-          <b className="underline"> field</b> has been a{" "}
-          <b className="underline"> passionate pursuit</b>, marked by countless
-          lines of code, creative solutions, and a deep dedication to the art of
-          crafting
+          I'm <b  className="underline">Ibrahim</b>, a <b>React Developer</b> with over{" "}
+          <b className="underline"> 2+ years</b> of professional experience in the world of web
+          development. My journey in this <b  className="underline"> field</b> has been a{" "}
+          <b  className="underline"> passionate pursuit</b>, marked by countless lines of code,
+          creative solutions, and a deep dedication to the art of crafting
           <b className="underline"> web applications</b>.
         </p>
       </div>
