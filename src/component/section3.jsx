@@ -13,7 +13,7 @@ export default function section3() {
   }, []);
   return (
     <div>
-      <section id="cd-timeline" class="cd-container ">
+      <section id="cd-timeline" class="cd-container">
         <div class="cd-timeline-block   overflow: hidden;">
           <div class="cd-timeline-img cd-picture"></div>
 

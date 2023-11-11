@@ -101,7 +101,7 @@ export default function section4() {
             </div>
           </div>
         </div>
-        <div className="text-normal underline text-Grotesk text-gray-600" id="end">
+        <div className="text-1xl text-normal underline text-Grotesk text-black" id="end">
           &copy; 2023
            All rights reserved.
         </div>

@@ -30,10 +30,10 @@ export default function section1() {
         <h1 className="pt-10 text-3xl underline sm:text-4xl">
           Seeing things from my own eye
         </h1>
-      <Image src={Arrow} alt="" className="w-6/12 relative top-[120px] arrow"/>
+      <Image src={Arrow} alt="" className="w-6/12 relative top-[70px] arrow"/>
       </div>
       
-      <div className="face w-full pt-20 sm:w-6/12 ">
+      <div className="face w-full pt-[150px] sm:w-5/12 ">
 <Image src={Face} placeholder="blur" className="rounded-4xl"/>
       </div>
     </div>

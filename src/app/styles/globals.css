@@ -39,19 +39,9 @@ color: #673ab7;
 .clr-green{
   color: green;
 }
-.section-2 {
-  position: relative;
-  background-image: url(../img/video\ \(2160p\).mp4);
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
-  background-position: 120px 120px 90px 120px;
-}
+
 .section-4 {
-  background-image: url(../img/roll.webp);
+  background-image: url(../img/cover.png);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -312,17 +302,3 @@ border: 1px solid rgba(255, 255, 255, 0.27);
  100% { transform:translate(0,0) }
 }
 
-#loader{
-  height:100px;
-  width:100px;
-
-  border-radius:50%;
-  border:5px solid #ddd;
-  border-top-color:#333;
-  animation:rotate 1s infinite;
-}
-@keyframes rotate{
-  100%{
-    rotate:360deg;
-  }
-}
