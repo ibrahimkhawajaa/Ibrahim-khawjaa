@@ -90,7 +90,7 @@ export default function section4() {
 
                     <div class="md:col-span-5 text-right">
                       <div class="inline-flex items-end">
-                        <button  type="submit" value="Send" class="bg-[#F4CE14] hover:bg-white text-white font-bold py-2 px-4 rounded-full">
+                        <button  type="submit" value="Send" class="bg-[#90EE20]  hover: text-white font-bold py-2 px-4 rounded-full">
                           Submit
                         </button>
                       </div>
@@ -101,7 +101,7 @@ export default function section4() {
             </div>
           </div>
         </div>
-        <div className="text-normal underline text-Grotesk text-gray-600" id="#end">
+        <div className="text-normal underline text-Grotesk text-gray-600" id="end">
           &copy; 2023
            All rights reserved.
         </div>

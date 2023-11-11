@@ -3,6 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 import Image from "next/image";
 
 import "../app/styles/globals.css";
+import Arrow from './Img/Arrow.png'
 import Face from './Img/Facepic.jpg'
 
 export default function section1() {
@@ -13,7 +14,7 @@ export default function section1() {
         <br />
         <h1 className="text-5xl sm:text-7xl">
           I'm{" "}
-          <span className="text-3xl bg-[#F4CE14] sm:text-5xl">
+          <span className="text-3xl bg-[#90EE90] sm:text-5xl">
           <Typewriter
             words={['ibrahim', 'Dev', 'Ux/Ui']}
             loop={2000}
@@ -29,10 +30,11 @@ export default function section1() {
         <h1 className="pt-10 text-3xl underline sm:text-4xl">
           Seeing things from my own eye
         </h1>
+      <Image src={Arrow} alt="" className="w-6/12 relative top-[120px] arrow"/>
       </div>
       
-      <div className="face w-full pt-20 sm:w-96">
-<Image src={Face} placeholder="blur"/>
+      <div className="face w-full pt-20 sm:w-6/12 ">
+<Image src={Face} placeholder="blur" className="rounded-4xl"/>
       </div>
     </div>
   );

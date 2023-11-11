@@ -5,12 +5,15 @@
 body,
 html {
   overflow-x: hidden;
-  background-color: #1a202c;
-  color: white;
+  background-color: #F0F0F0;
+  
   scroll-behavior: smooth;
   scroll-snap-type: mandatory;
 }
-
+body, html::-moz-selection{
+  background-color: black;
+color: #673ab7;
+}
 @font-face {
   font-family: "Grotesk";
   src: url(../fonts/RightGrotesk-WideMedium.otf);
@@ -33,9 +36,12 @@ html {
   font-family: "Logo";
   font-weight: bold;
 }
+.clr-green{
+  color: green;
+}
 .section-2 {
   position: relative;
-  background-image: url(../img/wall.webp);
+  background-image: url(../img/video\ \(2160p\).mp4);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -290,4 +296,33 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
 -webkit-backdrop-filter: blur(6.9px);
 border: 1px solid rgba(255, 255, 255, 0.27);
+}
+.arrow {
+  animation: shake-animation 4.72s ease infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes shake-animation {
+  0% { transform:translate(0,0) }
+ 1.78571% { transform:translate(5px,0) }
+ 3.57143% { transform:translate(0,0) }
+ 5.35714% { transform:translate(5px,0) }
+ 7.14286% { transform:translate(0,0) }
+ 8.92857% { transform:translate(5px,0) }
+ 10.71429% { transform:translate(0,0) }
+ 100% { transform:translate(0,0) }
+}
+
+#loader{
+  height:100px;
+  width:100px;
+
+  border-radius:50%;
+  border:5px solid #ddd;
+  border-top-color:#333;
+  animation:rotate 1s infinite;
+}
+@keyframes rotate{
+  100%{
+    rotate:360deg;
+  }
 }

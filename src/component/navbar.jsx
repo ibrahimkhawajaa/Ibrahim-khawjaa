@@ -14,7 +14,7 @@ export default function navbar() {
         <a href="/" className="relative right-10">
           Home
         </a>
-        <a href="#end ">Contact me*</a>
+        <a href="#end" className="bg-[#90EE20] text-white p-1.5 rounded-xl px-2 py-2" >Contact me*</a>
       </div>
     </nav>
   );
