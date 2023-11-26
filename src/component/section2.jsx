@@ -12,7 +12,7 @@ export default function section2() {
         <p className="text-center text-Neue text-2xl   sm:text-5xl ">
           {" "}
           I'm <b  className="underline">Ibrahim</b>, a <b>React Developer</b> with over{" "}
-          <b className="underline"> 2+ years</b> of professional experience in the world of web
+          <b className="underline"> 3+ years</b> of professional experience in the world of web
           development. My journey in this <b  className="underline"> field</b> has been a{" "}
           <b  className="underline"> passionate pursuit</b>, marked by countless lines of code,
           creative solutions, and a deep dedication to the art of crafting
